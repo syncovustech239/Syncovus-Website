@@ -168,9 +168,6 @@ header .navbar ul li a:hover {
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid #ff7b00;
   }
-  .fa-times {
-    transform: rotate(180deg);
-  }
   header .navbar.nav-toggle {
     right: 0;
   }
