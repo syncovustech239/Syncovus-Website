@@ -112,8 +112,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #ff7b00;
-  border-bottom: 0.2rem solid #ff7b00;
+  color: #800200;
+  border-bottom: 0.2rem solid #800200;
   padding: 0.5rem 0;
 }
 /* ++++++++++++++++++++HAMBURGER ICON START+++++++++++++++++++ */
@@ -136,37 +136,37 @@ header .navbar ul li a:hover {
   header .navbar {
     position: fixed;
     top: 6.5rem;
-    right: -120%;
-    width: 75%;
-    height: 100%;
+    right: -80%;
+    width: 35%;
+    height: 40vh;
     text-align: left;
-    align-items: flex-start;
-    background-color: #fff;
+    align-items: center;
+    background-color: #9EBAF3;
   }
   header .navbar ul {
     flex-flow: column;
-    padding: 1rem;
+    padding: .1rem;
   }
   header .navbar ul li {
     text-align: center;
-    width: 100%;
-    margin: 1rem 0;
+    /* width: 50%; */
+    margin: 1rem;
     border-radius: 0.5rem;
-    width: 26rem;
+    width: 15rem;
   }
   header .navbar ul li a {
     display: block;
-    padding: 1rem;
+    padding: .1rem;
     text-align: left;
     color: #000;
     font-size: 2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
-    padding: 1rem;
-    color: #ff7b00;
+    padding: .5rem;
+    color: #800200;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #ff7b00;
+    border-bottom: 0.5rem solid #800200;
   }
   header .navbar.nav-toggle {
     right: 0;
